@@ -1,0 +1,25 @@
+{
+  "name": "airsonos",
+  "version": "0.0.1",
+  "author": "Stephen Wan <stephen@stephenwan.net>",
+  "description": "AirTunes to Sonos devices",
+  "contributors": [ 
+    {
+      "name": "Stephen Wan",
+      "email": "stephen@stephenwan.net"
+    } 
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StephenCWan/airsonos.git"
+  },
+  "dependencies" : {
+    "sonos" : "*",
+    "lame" : "*",
+    "nodetunes" : "*",
+    "nicercast" : "*"
+  },
+  "license": "MIT"
+}
