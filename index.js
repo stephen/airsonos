@@ -1,5 +1,6 @@
 "use strict";
 var sonos = require('sonos');
+var ip = require('ip');
 var NodeTunes = require('nodetunes');
 var NicerCast = require('nicercast');
 
@@ -7,21 +8,17 @@ var audioStream = require('stream').PassThrough();
 
 var airplayServer = new NodeTunes(audioStream);
 var icecastServer = new NicerCast(audioStream);
+var outputPort = 8001;
 
 airplayServer.start();
-icecastServer.start();
+icecastServer.start(outputPort);
 
-sonos.search(function(device) {
-  // device is an instance of sonos.Sonos
-  //console.log(device);
+airplayServer.on('clientConnected', function() {
+	var device = new sonos.Sonos('172.17.105.103');
+
+	// device is an instance of sonos.Sonos
+	device.play('x-rincon-mp3radio://' + ip.address() + ':' + outputPort + '/listen.m3u', function(err, playing) {
+		device.play(function() {
+		});
+	});
 });
-
-/*
-var s = new sonos.Sonos('172.17.107.143', 1400);
-s.currentTrack(console.log);
-
-s.play('http://172.17.105.152:8000/assets/sample.mp3', function(err, playing) {
-	console.log(err);
-	console.log(playing);
-});
-*/
