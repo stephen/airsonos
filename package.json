@@ -1,6 +1,6 @@
 {
   "name": "airsonos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [
@@ -20,7 +20,8 @@
     "nodetunes": "*",
     "nicercast": "*",
     "ip": "*",
-    "throttle": "~1.0.3"
+    "throttle": "~1.0.3",
+    "portastic": "0.0.1"
   },
   "license": "MIT"
 }
