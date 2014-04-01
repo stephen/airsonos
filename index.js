@@ -9,13 +9,8 @@ var NicerCast = require('nicercast');
 sonos.search(function(device) {
   console.log('setting up airsonos for', device);
 
-  var audioStream = require('stream').PassThrough();
-
-  var airplayServer = new NodeTunes(audioStream, {
+  var airplayServer = new NodeTunes({
     serverName: 'AirSonos@' + device.host
-  });
-  var icecastServer = new NicerCast(audioStream, {
-    name: 'AirSonos@' + device.host
   });
 
   portastic.find({
@@ -25,7 +20,11 @@ sonos.search(function(device) {
   }, function(err, port) {
     if (err) throw err;
 
-    airplayServer.on('clientConnected', function() {
+    airplayServer.on('clientConnected', function(audioStream) {
+  
+      var icecastServer = new NicerCast(audioStream, {
+        name: 'AirSonos@' + device.host
+      });
 
       // device is an instance of sonos.Sonos
       device.play('x-rincon-mp3radio://' + ip.address() + ':' + port + '/listen.m3u', function(err, playing) {
@@ -33,6 +32,9 @@ sonos.search(function(device) {
           
         });
       });
+
+      icecastServer.start(port);
+
     });
 
     airplayServer.on('volumeChange', function(vol) {
@@ -43,6 +45,6 @@ sonos.search(function(device) {
     });
 
     airplayServer.start();
-    icecastServer.start(port);
   });
 });
+
