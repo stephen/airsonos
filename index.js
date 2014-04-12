@@ -13,15 +13,15 @@ sonos.search(function(device) {
     serverName: 'AirSonos@' + device.host
   });
 
-  portastic.find({
+  airplayServer.on('clientConnected', function(audioStream) {
+
+    portastic.find({
       min : 8000,
       max : 8050,
       retrieve: 1
-  }, function(err, port) {
-    if (err) throw err;
+    }, function(err, port) {
+      if (err) throw err;
 
-    airplayServer.on('clientConnected', function(audioStream) {
-  
       var icecastServer = new NicerCast(audioStream, {
         name: 'AirSonos@' + device.host
       });
@@ -36,15 +36,15 @@ sonos.search(function(device) {
       icecastServer.start(port);
 
     });
-
-    airplayServer.on('volumeChange', function(vol) {
-      vol = 100 - Math.floor(-1 * (Math.max(vol, -30) / 30) * 100);
-      device.setVolume(vol, function() {
-
-      });
-    });
-
-    airplayServer.start();
   });
+
+  airplayServer.on('volumeChange', function(vol) {
+    vol = 100 - Math.floor(-1 * (Math.max(vol, -30) / 30) * 100);
+    device.setVolume(vol, function() {
+
+    });
+  });
+
+  airplayServer.start();
 });
 
