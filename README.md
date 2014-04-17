@@ -20,12 +20,6 @@ cd airsonos
 npm install -g # root access for global
 ```
 
-Run
-===
-```
-airsonos
-```
-
 Example usage
 -------------
 ```
