@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenCWan/airsonos.git"
+    "url": "https://github.com/stephen/airsonos.git"
   },
   "dependencies": {
     "sonos": "*",
