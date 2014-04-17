@@ -12,6 +12,8 @@
   "scripts": {
     "start" : "node ./index.js"
   },
+  "bin" : "./index.js",   
+  "global" : "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"

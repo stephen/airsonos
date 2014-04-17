@@ -37,6 +37,9 @@ setting up airsonos for { host: '172.17.105.103', port: 1400 }
 Changelog
 ---------
 
+##### 0.0.5
+- Added support for global installation
+
 ##### 0.0.4
 - Fixed EADDRINUSE re-connection bug
 
