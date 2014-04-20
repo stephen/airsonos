@@ -10,7 +10,7 @@ AirSonos requires [node.js](http://nodejs.org) installed to run.
 
 Install via [npm](https://www.npmjs.org)
 ```
-$ npm install airsonos -g # root access for global
+$ npm install airsonos -g
 ```
 
 Install latest via source
