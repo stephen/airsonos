@@ -30,6 +30,8 @@ setting up airsonos for { host: '172.17.105.103', port: 1400 }
 
 Changelog
 ---------
+##### 0.0.8
+- Upped to ```[NodeTunes](https://github.com/stephen/nodetunes) version 0.0.10
 
 ##### 0.0.7
 - Fixed issue where Sonos Bridge shows up as a playable device (see bencevans/node-sonos/issues/29)
