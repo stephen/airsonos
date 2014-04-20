@@ -34,7 +34,7 @@ Changelog
 - Upped to ```[NodeTunes](https://github.com/stephen/nodetunes) version 0.0.10
 
 ##### 0.0.7
-- Fixed issue where Sonos Bridge shows up as a playable device (see bencevans/node-sonos/issues/29)
+- Fixed issue where Sonos Bridge shows up as a playable device (see https://github.com/bencevans/node-sonos/issues/29)
 
 ##### 0.0.6
 - Upped to ```[NodeTunes](https://github.com/stephen/nodetunes) version 0.0.9 (solves issue #1)
