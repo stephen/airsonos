@@ -5,4 +5,51 @@ html, body {
 .page {
 	min-height: 100%;
 	background-color: #27ae60;
+	position: relative;
+}
+
+.page#main {
+	background: url('../static/background.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.title {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	color: #fff;
+}
+
+.title h1 {
+	font-size: 4em;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.title h4 {
+	font-size: 1.3em;
+	font-weight: 100;
+	margin-top: 0px;
+	text-align: justify;
+	width: 10000px;
+}
+
+.title img {
+	width: 350px;
+	display: block;
+}
+
+a.btn:link, a.btn:visited {
+	font-weight: 100;
+	font-size: 1em;
+	margin-top: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	transition: background-color .2s linear;
+	-webkit-transition: background-color .2s linear;
+}
+
+a.btn:hover, a.btn:active {
+	background-color: rgba(255, 255, 255, .2);
 }
