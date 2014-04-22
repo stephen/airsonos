@@ -24,8 +24,8 @@ Example usage
 -------------
 ```
 $ airsonos
-setting up airsonos for { host: '172.17.106.37', port: 1400 }
-setting up airsonos for { host: '172.17.105.103', port: 1400 }
+Searching for Sonos devices on network...
+Setting up AirSonos for Playroom {172.17.105.103:1400}
 ```
 
 Changelog
