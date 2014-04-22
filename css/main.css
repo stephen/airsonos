@@ -1,0 +1,8 @@
+html, body {
+	height: 100%;
+}
+
+.page {
+	min-height: 100%;
+	background-color: #27ae60;
+}
