@@ -19,6 +19,15 @@ html, body {
 	top: 35%;
 	left: 10%;
 	color: #fff;
+	text-shadow: 0px 0px 10px #000;
+}
+
+footer {
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+	color: #fff;
+	text-shadow: 0px 0px 10px #000;
 }
 
 .title h1 {
@@ -51,4 +60,16 @@ a.btn:link, a.btn:visited {
 
 a.btn:hover, a.btn:active {
 	background-color: rgba(255, 255, 255, .2);
+}
+
+a:link, a:visited {
+	font-weight: 400;
+	font-size: 1em;
+	color: #fff;
+	transition: color .2s linear;
+	-webkit-transition: color .2s linear;
+}
+
+a:hover, a:active {
+	color: #f7f7f7;
 }
