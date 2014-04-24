@@ -10,10 +10,10 @@
     }
   ],
   "scripts": {
-    "start" : "node ./index.js"
+    "start": "node ./index.js"
   },
-  "bin" : "./index.js",   
-  "global" : "true",
+  "bin": "./index.js",
+  "global": "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"
@@ -25,7 +25,8 @@
     "nicercast": "~0.0.2",
     "ip": "*",
     "throttle": "~1.0.3",
-    "portastic": "0.0.1"
+    "portastic": "0.0.1",
+    "flags": "~0.1.2"
   },
   "license": "MIT"
 }

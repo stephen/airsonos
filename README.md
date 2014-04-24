@@ -31,4 +31,4 @@ Setting up AirSonos for Playroom {172.17.105.103:1400}
 Changelog
 ---------
 
-See CHANGELOG.md
+See ```CHANGELOG.md```
