@@ -1,6 +1,6 @@
 {
   "name": "airsonos",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [

@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.11
+- Added network diagnostics output (```airsonos --diagnostics```)
+
 ##### 0.0.10
 - Ignore Sonos Sub device when scanning network (see issue #7, thanks @sascha!)
 
