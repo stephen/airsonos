@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.12
+- Added Sonos Controller metadata support (see https://github.com/stephen/airsonos/issues/12)
+
 ##### 0.0.11
 - Added network diagnostics output (```airsonos --diagnostics```)
 
