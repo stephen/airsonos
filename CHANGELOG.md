@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.13
+- Upped to nodetunes v0.0.12 (attempts to solve issue #2)
+- Updated diagnostics output to include topology information
+
 ##### 0.0.12
 - Added Sonos Controller metadata support (see https://github.com/stephen/airsonos/issues/12)
 
