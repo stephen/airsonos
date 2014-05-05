@@ -21,8 +21,8 @@
   "dependencies": {
     "sonos": "~0.6.0",
     "lame": "*",
-    "nodetunes": "~0.0.12",
-    "nicercast": "~0.0.3",
+    "nodetunes": "0.0.11",
+    "nicercast": "0.0.4",
     "ip": "*",
     "throttle": "~1.0.3",
     "portastic": "0.0.1",
