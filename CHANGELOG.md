@@ -1,7 +1,11 @@
 Changelog
 =========
 
-##### 0.0.13
+##### 0.0.14
+- Reverted to nodetunes v0.0.11 (issues with refactor)
+- Updated nicercast v0.0.4
+
+##### 0.0.13 (_deprecated_)
 - Upped to nodetunes v0.0.12 (attempts to solve issue #2)
 - Updated diagnostics output to include topology information
 
