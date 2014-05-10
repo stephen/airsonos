@@ -19,10 +19,10 @@
     "url": "https://github.com/stephen/airsonos.git"
   },
   "dependencies": {
-    "sonos": "~0.6.0",
+    "sonos": "0.6.0",
     "lame": "*",
-    "nodetunes": "0.0.11",
-    "nicercast": "0.0.4",
+    "nodetunes": "0.0.14",
+    "nicercast": "0.0.6",
     "ip": "*",
     "throttle": "~1.0.3",
     "portastic": "0.0.1",
