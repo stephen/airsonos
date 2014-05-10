@@ -1,9 +1,9 @@
 Changelog
 =========
 
-##### 0.0.14
+##### 0.0.15
 - Reverted to nodetunes v0.0.11 (issues with refactor)
-- Updated nicercast v0.0.4
+- Updated nicercast v0.0.5
 
 ##### 0.0.13 (_deprecated_)
 - Upped to nodetunes v0.0.12 (attempts to solve issue #2)
