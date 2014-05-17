@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.16
+- Added metadata support for client name in radio stream (e.g. Stephen's iPad)
+- Updated to sonos 0.6.1, nodetunes 0.0.16
+
 ##### 0.0.15
 - Reverted to nodetunes v0.0.11 (issues with refactor)
 - Updated nicercast v0.0.5
