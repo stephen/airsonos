@@ -20,6 +20,11 @@ $ cd airsonos
 $ npm install -g
 ```
 
+On linux machines, there are dependencies for `libavahi-compat-libdnssd-dev libasound2-dev` packages. On distributions with `apt`...
+```
+$ sudo apt-get install libavahi-compat-libdnssd-dev libasound2-dev
+```
+
 Example usage
 -------------
 ```
