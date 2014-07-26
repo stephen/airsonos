@@ -1,12 +1,14 @@
 AirSonos
 ========
 
-Server to add AirPlay support to a Sonos network.
+AirSonos is a server that adds Apple [AirPlay](https://www.apple.com/airplay/) (iOS, OS X) support to all Sonos devices on a network.
+
+Questions? Feel free to ping [@stephencwan](https://twitter.com/stephencwan)
 
 Installation
 ------------
 
-AirSonos requires [node.js](http://nodejs.org) installed to run.
+AirSonos requires [node.js](http://nodejs.org) v0.10.x installed to run.
 
 Install via [npm](https://www.npmjs.org)
 ```
