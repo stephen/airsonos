@@ -44,7 +44,7 @@ $ npm install
 $ node index.js
 ```
 
-Internally, AirSonos is a thin wrapper around the `[nodetunes](https://github.com/stephen/nodetunes)` and `[nicercast](https://github.com/stephen/nicercast)` packages.
+Internally, AirSonos is a thin wrapper around the [nodetunes](https://github.com/stephen/nodetunes) and [nicercast](https://github.com/stephen/nicercast) packages.
 
 Changelog
 ---------
