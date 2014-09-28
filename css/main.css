@@ -23,6 +23,7 @@ html, body {
 }
 
 footer {
+	font-weight: 200;
 	position: absolute;
 	left: 10%;
 	bottom: 10%;
@@ -48,7 +49,7 @@ footer {
 }
 
 a.btn:link, a.btn:visited {
-	font-weight: 100;
+	font-weight: 200;
 	font-size: 1em;
 	margin-top: 20px;
 	color: #fff;
