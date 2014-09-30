@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.18
+- Updated to nodetunes 0.0.17, locked dependency versions
+
 ##### 0.0.17
 - Fixes issue where unknown request method crashes session (see issue #34)
 - Updated to nodetunes 0.0.17
