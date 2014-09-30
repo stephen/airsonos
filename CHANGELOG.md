@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.17
+- Fixes issue where unknown request method crashes session (see issue #34)
+- Updated to nodetunes 0.0.17
+
 ##### 0.0.16
 - Added metadata support for client name in radio stream (e.g. Stephen's iPad)
 - Updated to sonos 0.6.1, nodetunes 0.0.16
