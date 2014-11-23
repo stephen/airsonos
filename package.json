@@ -1,6 +1,6 @@
 {
   "name": "airsonos",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [
@@ -24,7 +24,7 @@
     "lame": "1.1.1",
     "lodash": "~2.4.1",
     "nicercast": "0.0.6",
-    "nodetunes": "0.1.0",
+    "nodetunes": "0.1.1",
     "portastic": "0.0.1",
     "sonos": "0.6.1",
     "throttle": "~1.0.3"

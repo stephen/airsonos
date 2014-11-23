@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.21
+- Updated to nodetunes 0.1.1
+
 ##### 0.0.20
 - Updated to nodetunes 0.1.0
 - Added `--verbose` and `--timeout n` flags
