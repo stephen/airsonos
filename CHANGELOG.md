@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.20
+- Updated to nodetunes 0.1.0
+- Added `--verbose` and `--timeout n` flags
+
 ##### 0.0.19
 - Updated to nodetunes 0.0.19 (removed dependency for ursa)
 
