@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.22
+- Added ip address to diagnostics output
+
 ##### 0.0.21
 - Updated to nodetunes 0.1.1
 
