@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.24
+- Changed device naming scheme to show device name first
+
 ##### 0.0.23
 - Fixed issue #21
 - Updated to nicercast 0.0.7
