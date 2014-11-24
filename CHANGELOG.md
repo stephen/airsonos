@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.23
+- Fixed issue #21
+- Updated to nicercast 0.0.7
+
 ##### 0.0.22
 - Added ip address to diagnostics output
 
