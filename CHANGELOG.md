@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.0.25
+- Updated to nodetunes 0.1.2
+- Added warning when attempting to connect with iTunes/AirFoil (no more static)
+
 ##### 0.0.24
 - Changed device naming scheme to show device name first
 
