@@ -34,6 +34,8 @@ When this option is set, airsonos skips the autodiscovery part and tries to conn
 specified in `<device_list>`. A Sonos device is specified by its IP. 
 Optionally you can set also its TCP port if the device is set to not use the default port (1400).
 
+As long as airsonos is able to connect to at least one device, it will not end itself.
+
 This is the syntax:
 ```
 airsonos --devices SONOS1_IP[:SONOS1_PORT][,SONOS2_IP[:SONOS2_PORT][,...]]
