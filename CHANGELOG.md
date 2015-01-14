@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.0.26
+- Update to nicercast 0.0.8
+
 ##### 0.0.25
 - Updated to nodetunes 0.1.2
 - Added warning when attempting to connect with iTunes/AirFoil (no more static)
