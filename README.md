@@ -3,7 +3,7 @@ AirSonos
 
 AirSonos is a server that adds Apple [AirPlay](https://www.apple.com/airplay/) (iOS, OS X) support to all Sonos devices on a network.
 
-[Blog post on further reading](https://medium.com/@stephencwan/hacking-airplay-into-sonos-93a41a1fcfbb)
+[Blog post for further reading](https://medium.com/@stephencwan/hacking-airplay-into-sonos-93a41a1fcfbb)
 
 Questions? Feel free to ping [@stephencwan](https://twitter.com/stephencwan)
 
@@ -17,17 +17,7 @@ Install via [npm](https://www.npmjs.org)
 $ npm install airsonos -g
 ```
 
-Install latest via source
-```
-$ git clone https://github.com/stephen/airsonos.git
-$ cd airsonos
-$ npm install -g
-```
-
-On linux machines, there are dependencies for `libavahi-compat-libdnssd-dev libasound2-dev` packages. On distributions with `apt`...
-```
-$ sudo apt-get install libavahi-compat-libdnssd-dev libasound2-dev
-```
+Platform-specific install note available from [`INSTALL.md`](https://github.com/stephen/airsonos/blob/master/CHANGELOG.md)
 
 Example usage
 -------------
@@ -51,4 +41,4 @@ Internally, AirSonos is a thin wrapper around the [nodetunes](https://github.com
 Changelog
 ---------
 
-See ```CHANGELOG.md```
+See [`CHANGELOG.md`](https://github.com/stephen/airsonos/blob/master/CHANGELOG.md)
