@@ -30,6 +30,10 @@ On linux machines, there are dependencies for `libavahi-compat-libdnssd-dev liba
 ```
 $ sudo apt-get install libavahi-compat-libdnssd-dev libasound2-dev
 ```
+for `yum`-based distros (CentOS/RHEL):
+```
+$ yum install avahi avahi-compat-libdns_sd avahi-compat-libdns_sd-devel
+```
 
 Note that for some distributions, `nodejs` must be [symlinked to `node` prior to install](https://github.com/stephen/airsonos/issues/90).
 
