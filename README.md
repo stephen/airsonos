@@ -10,7 +10,7 @@ Questions? Feel free to ping [@stephencwan](https://twitter.com/stephencwan)
 Installation
 ------------
 
-AirSonos requires [node.js](http://nodejs.org) v0.10.x installed to run.
+AirSonos requires [node.js](http://nodejs.org) >= v0.10.33 installed to run.
 
 Install via [npm](https://www.npmjs.org)
 ```
