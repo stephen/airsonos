@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.1.0
+- Added support for grouped and paired devices
+
 ##### 0.0.26
 - Update to nicercast 0.0.8
 
