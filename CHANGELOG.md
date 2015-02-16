@@ -1,7 +1,7 @@
 Changelog
 =========
 
-##### 0.1.0
+##### 0.1.1
 - Added support for grouped and paired devices
 
 ##### 0.0.26
