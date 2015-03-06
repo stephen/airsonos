@@ -17,7 +17,7 @@ Install via [npm](https://www.npmjs.org)
 $ npm install airsonos -g
 ```
 
-Platform-specific install note available from [`INSTALL.md`](https://github.com/stephen/airsonos/blob/master/CHANGELOG.md)
+Platform-specific install note available from [`INSTALL.md`](https://github.com/stephen/airsonos/blob/master/INSTALL.md)
 
 Example usage
 -------------
