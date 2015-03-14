@@ -25,7 +25,7 @@
     "nicercast": "0.0.8",
     "nodetunes": "0.1.2",
     "portastic": "0.0.1",
-    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0",
+    "sonos": "~0.8.0",
     "throttle": "~1.0.3"
   },
   "license": "MIT"
