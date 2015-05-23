@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.1.1-iona5
+- Added support for selecting devices without discovery through `--devices <device_list>' to 0.1.1 tree 
+
 ##### 0.1.1
 - Added support for grouped and paired devices
 

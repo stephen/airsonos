@@ -1,12 +1,15 @@
 {
   "name": "airsonos",
-  "version": "0.1.1",
+  "version": "0.1.1-iona5",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [
     {
       "name": "Stephen Wan",
       "email": "stephen@stephenwan.net"
+    },
+    {
+      "name": "@iona5 (GitHub)"
     }
   ],
   "scripts": {
