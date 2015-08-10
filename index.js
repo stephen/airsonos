@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-require(__dirname + '/lib/main');
+
+require('babel/register');
+require('./lib/main');

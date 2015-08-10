@@ -19,6 +19,8 @@
     "url": "https://github.com/stephen/airsonos.git"
   },
   "dependencies": {
+    "babel": "^5.8.21",
+    "bluebird": "^2.9.34",
     "flags": "~0.1.2",
     "ip": "0.3.2",
     "lodash": "~2.4.1",
