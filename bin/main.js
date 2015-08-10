@@ -14,7 +14,7 @@ if (flags.get('version')) {
 
 } else if (flags.get('diagnostics')) {
 
-  let diag = require('./diagnostics');
+  let diag = require('../lib/diagnostics');
   diag();
 
 } else {
@@ -22,8 +22,9 @@ if (flags.get('version')) {
   console.log('Searching for Sonos devices on network...\n');
   let instance = new AirSonos();
   instance.start().then((tunnels) => {
+
     tunnels.forEach((tunnel) => {
-      console.log(`${ tunnel.deviceName } (@ ${ tunnel.device.host }:${ tunnel.device.port })`);
+      console.log(`${ tunnel.deviceName } (@ ${ tunnel.device.host }:${ tunnel.device.port }, ${ tunnel.device.groupId })`);
     });
 
     console.log(`\nSearch complete. Set up ${ tunnels.length } device tunnel${ tunnels.length === 1 ? '' : 's' }.`);
