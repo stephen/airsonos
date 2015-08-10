@@ -13,7 +13,6 @@
     "start": "node ./bin/index.js"
   },
   "bin": "./bin/index.js",
-  "global": "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"
@@ -25,8 +24,7 @@
     "ip": "0.3.2",
     "nicercast": "0.0.8",
     "nodetunes": "0.1.2",
-    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0",
-    "throttle": "~1.0.3"
+    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
   },
   "license": "MIT"
 }
