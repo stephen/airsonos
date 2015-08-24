@@ -10,7 +10,8 @@
     }
   ],
   "scripts": {
-    "start": "node ./bin/index.js"
+    "start": "node ./bin/index.js",
+    "test": "jscs ."
   },
   "bin": "./bin/index.js",
   "repository": {
@@ -26,5 +27,8 @@
     "nodetunes": "0.2.0",
     "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jscs": "^2.1.0"
+  }
 }
