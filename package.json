@@ -1,6 +1,6 @@
 {
   "name": "airsonos",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [
@@ -10,23 +10,25 @@
     }
   ],
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./bin/index.js",
+    "test": "jscs ."
   },
-  "bin": "./index.js",
-  "global": "true",
+  "bin": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"
   },
   "dependencies": {
+    "babel": "^5.8.21",
+    "bluebird": "^2.9.34",
     "flags": "~0.1.2",
     "ip": "0.3.2",
-    "lodash": "~2.4.1",
-    "nicercast": "0.0.8",
-    "nodetunes": "0.1.2",
-    "portastic": "0.0.1",
-    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0",
-    "throttle": "~1.0.3"
+    "nicercast": "0.1.0",
+    "nodetunes": "0.2.0",
+    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jscs": "^2.1.0"
+  }
 }

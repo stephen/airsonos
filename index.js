@@ -1,2 +1,1 @@
-#!/usr/bin/env node
-require(__dirname + '/lib/main');
+module.exports = require('./lib');

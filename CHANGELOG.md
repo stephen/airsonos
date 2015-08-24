@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.2.1
+- Fixed bug where devices would be reported multiple times
+- Added support for node 0.12.x
+
 ##### 0.1.1
 - Added support for grouped and paired devices
 
