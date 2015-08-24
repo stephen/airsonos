@@ -20,7 +20,12 @@ if (flags.get('version')) {
 } else {
 
   console.log('Searching for Sonos devices on network...\n');
-  let instance = new AirSonos();
+
+  let instance = new AirSonos({
+    verbose: flags.get('verbose'),
+    timeout: flags.get('timeout'),
+  });
+
   instance.start().then((tunnels) => {
 
     tunnels.forEach((tunnel) => {
