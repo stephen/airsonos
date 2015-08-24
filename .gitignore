@@ -16,3 +16,4 @@ node_modules
 
 _site/
 .DS_STORE
+bin/

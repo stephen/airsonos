@@ -1,6 +1,6 @@
 {
   "name": "airsonos",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
   "contributors": [
@@ -10,8 +10,9 @@
     }
   ],
   "scripts": {
-    "start": "node ./bin/index.js",
-    "test": "jscs ."
+    "start": "babel-node ./lib/index.js",
+    "test": "jscs .",
+    "prepublish": "babel ./lib/ -d ./bin/"
   },
   "bin": "./bin/index.js",
   "repository": {

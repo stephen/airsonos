@@ -1,7 +1,7 @@
 Changelog
 =========
 
-##### 0.2.1
+##### 0.2.2
 - Fixed bug where devices would be reported multiple times
 - Added support for node 0.12.x
 
