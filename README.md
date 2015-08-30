@@ -36,7 +36,7 @@ Development
 $ git clone https://github.com/stephen/airsonos.git
 $ cd airsonos
 $ npm install
-$ node ./bin/index.js
+$ node ./dist/index.js
 ```
 
 Internally, AirSonos is a thin wrapper around the [nodetunes](https://github.com/stephen/nodetunes) and [nicercast](https://github.com/stephen/nicercast) packages.

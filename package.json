@@ -12,9 +12,9 @@
   "scripts": {
     "start": "babel-node ./lib/index.js",
     "test": "jscs .",
-    "prepublish": "babel ./lib/ -d ./bin/"
+    "prepublish": "babel ./lib/ -d ./dist/"
   },
-  "bin": "./bin/index.js",
+  "bin": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"
@@ -30,6 +30,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "jscs": "^2.1.0"
+    "electron-prebuilt": "^0.31.1",
+    "electron-rebuild": "^0.2.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-electron": "0.0.9",
+    "gulp-livereload": "^3.8.0",
+    "gulp-run": "^1.6.10",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.3.5",
+    "jscs": "^2.1.0",
+    "livereload-js": "^2.2.2"
   }
 }
