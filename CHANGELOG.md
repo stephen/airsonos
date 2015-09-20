@@ -1,8 +1,9 @@
 Changelog
 =========
 
-##### 0.2.3
+##### 0.2.4
 - Added support for node 4.0.0
+- Re-added warning for ALAC device usage
 
 ##### 0.2.2
 - Fixed bug where devices would be reported multiple times
