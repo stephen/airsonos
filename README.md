@@ -19,6 +19,8 @@ $ npm install airsonos -g
 
 Platform-specific install note available from [`INSTALL.md`](https://github.com/stephen/airsonos/blob/master/INSTALL.md)
 
+Example to run it as a service in OS X from  [`OSXPLIST.md`](https://github.com/stephen/airsonos/blob/master/OSXPLIST.md)
+
 Example usage
 -------------
 ```
