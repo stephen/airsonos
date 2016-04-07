@@ -15,6 +15,11 @@ $ cd airsonos
 $ npm install -g
 ```
 
+#### MacOS Pre-requisites
+
+ - The Command Line Tools `$ xcode-select --install`
+ - You may find [HomeBrew](https://brew.sh) the easiest way to install npm viz. `brew install npm` after brew's set-up
+
 ### Platform Specific Instructions
 
 Some non-OS X platforms require additional dependencies or steps to work.
