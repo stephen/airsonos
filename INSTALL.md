@@ -12,7 +12,7 @@ Install latest via source
 ```
 $ git clone https://github.com/stephen/airsonos.git
 $ cd airsonos
-$ npm install -g
+$ npm install
 ```
 
 ### Platform Specific Instructions
