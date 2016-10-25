@@ -25,7 +25,7 @@
     "flags": "~0.1.2",
     "ip": "1.1.0",
     "nicercast": "0.1.0",
-    "nodetunes": "^0.3.0",
+    "nodetunes": "git://github.com/Kolky/nodetunes.git#master",
     "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
   },
   "license": "MIT",
