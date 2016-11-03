@@ -30,6 +30,8 @@ Swan (@ 192.168.0.1:1400, RINCON_B8E9375433D201400:1)
 Search complete. Set up 1 device tunnel.
 ```
 
+Note: Before running the above command, make sure to "ungroup" all speakers. Any grouped speakers will not get picked up by Airsonos.
+
 Development
 -----------
 ```
