@@ -41,6 +41,17 @@ $ node ./bin/index.js
 
 Internally, AirSonos is a thin wrapper around the [nodetunes](https://github.com/stephen/nodetunes) and [nicercast](https://github.com/stephen/nicercast) packages.
 
+Docker
+------
+
+The repo includes a `Dockerfile` to spin up a docker instance with the latest
+supported node.js version. This commands should get you up and running:
+
+```sh
+docker build -t airsonos .
+docker run airsonos
+```
+
 Changelog
 ---------
 
