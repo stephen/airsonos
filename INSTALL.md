@@ -1,7 +1,7 @@
 Installation
 ------------
 
-AirSonos requires [node.js](http://nodejs.org) v0.10.x installed to run. (Progress for 0.11.x support [here](https://github.com/stephen/airsonos/issues/33))
+AirSonos requires [node.js](http://nodejs.org) >= v0.10.33 installed to run.
 
 Install via [npm](https://www.npmjs.org)
 ```
