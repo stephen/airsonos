@@ -12,10 +12,14 @@ Installation
 
 AirSonos requires [node.js](http://nodejs.org) >= v0.10.33 installed to run.
 
+### macOS Installation
+
 Install via [npm](https://www.npmjs.org)
 ```
 $ npm install airsonos -g
 ```
+
+### Other Platforms
 
 Platform-specific install note available from [`INSTALL.md`](https://github.com/stephen/airsonos/blob/master/INSTALL.md)
 
