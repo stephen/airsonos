@@ -23,10 +23,10 @@
     "babel": "^5.8.21",
     "bluebird": "^2.9.34",
     "flags": "~0.1.2",
-    "ip": "1.1.0",
+    "ip": "1.1.5",
     "nicercast": "0.1.0",
     "nodetunes": "^0.3.0",
-    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
+    "sonos": "1.11.0"
   },
   "license": "MIT",
   "devDependencies": {
