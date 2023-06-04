@@ -1,11 +1,14 @@
 AirSonos
 ========
 
+**Airsonos has been archived and is not under active maintainenance.**
+
+---
+
 AirSonos is a server that adds Apple [AirPlay](https://www.apple.com/airplay/) (iOS, OS X) support to all Sonos devices on a network.
 
 [Blog post for further reading](https://medium.com/@stephencwan/hacking-airplay-into-sonos-93a41a1fcfbb)
 
-Questions? Feel free to ping [@stephencwan](https://twitter.com/stephencwan)
 
 Installation
 ------------
